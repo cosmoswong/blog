@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/"/>
-  <updated>2019-10-11T12:43:25.476Z</updated>
+  <updated>2019-10-12T11:00:01.969Z</updated>
   <id>https://github.com/cosmoswong/cosmoswong.github.io.git/</id>
   
   <author>
@@ -18,19 +18,34 @@
   
   <entry>
     <title></title>
-    <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/11/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JVM%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/11/深入理解JVM读书笔记/</id>
-    <published>2019-10-11T12:14:18.891Z</published>
-    <updated>2019-10-11T12:43:25.476Z</updated>
+    <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JVM/"/>
+    <id>https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/深入理解JVM/</id>
+    <published>2019-10-12T10:54:03.555Z</published>
+    <updated>2019-10-12T11:00:01.969Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="深入理解JVM读书笔记"><a href="#深入理解JVM读书笔记" class="headerlink" title="深入理解JVM读书笔记"></a>深入理解JVM读书笔记</h1><h2 id="在学习HotSpot虚拟机前，需要安装hsdis-amd64，下面是安装方法"><a href="#在学习HotSpot虚拟机前，需要安装hsdis-amd64，下面是安装方法" class="headerlink" title="在学习HotSpot虚拟机前，需要安装hsdis-amd64，下面是安装方法"></a>在学习HotSpot虚拟机前，需要安装hsdis-amd64，下面是安装方法</h2><p><a href="https://blog.csdn.net/yizishou/article/details/53423409" target="_blank" rel="noopener">https://blog.csdn.net/yizishou/article/details/53423409</a></p><p><a href="https://blog.csdn.net/ylb1213/article/details/79506789" target="_blank" rel="noopener">https://blog.csdn.net/ylb1213/article/details/79506789</a></p><h2 id="这里的-Xmn10M-表示什么含义"><a href="#这里的-Xmn10M-表示什么含义" class="headerlink" title="这里的-Xmn10M 表示什么含义"></a>这里的-Xmn10M 表示什么含义</h2><hr><p>title: 深入理解JVM读书笔记<br>date: 2019-10-11 20:14:18<br>tags:</p><hr>]]></content>
+    <content type="html"><![CDATA[<h2 id="this-is-a-test-page"><a href="#this-is-a-test-page" class="headerlink" title="this is a test page"></a>this is a test page</h2><p>这家伙总以为自己是个天才，实际并不比别人聪明多少<br><img src="//github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/深入理解JVM/360%E6%88%AA%E5%9B%BE16240203109105124.png" alt></p><blockquote><p>A journey of a thousand miles begins with a single step.</p></blockquote><hr><p>title: 深入理解JVM<br>date: 2019-10-12 18:54:03<br>tags:</p><hr>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;深入理解JVM读书笔记&quot;&gt;&lt;a href=&quot;#深入理解JVM读书笔记&quot; class=&quot;headerlink&quot; title=&quot;深入理解JVM读书笔记&quot;&gt;&lt;/a&gt;深入理解JVM读书笔记&lt;/h1&gt;&lt;h2 id=&quot;在学习HotSpot虚拟机前，需要安装hsdis-amd6
+        &lt;h2 id=&quot;this-is-a-test-page&quot;&gt;&lt;a href=&quot;#this-is-a-test-page&quot; class=&quot;headerlink&quot; title=&quot;this is a test page&quot;&gt;&lt;/a&gt;this is a test page&lt;/h2&gt;&lt;p&gt;这家
       
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git常用操作</title>
+    <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/"/>
+    <id>https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/git常用操作/</id>
+    <published>2019-10-12T10:01:41.000Z</published>
+    <updated>2019-10-12T10:01:41.089Z</updated>
+    
+    <summary type="html">
     
     </summary>
     
