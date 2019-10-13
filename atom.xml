@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>cosmoswong</title>
+  
+  <subtitle>A journey of a thousand miles begins with a single step.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/"/>
+  <updated>2019-10-13T03:02:32.843Z</updated>
+  <id>https://github.com/cosmoswong/cosmoswong.github.io.git/</id>
+  
+  <author>
+    <name>cosmoswong</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/"/>
+    <id>https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/</id>
+    <published>2019-10-12T14:06:52.025Z</published>
+    <updated>2019-10-13T03:02:32.843Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="GitHub命令操作"><a href="#GitHub命令操作" class="headerlink" title="GitHub命令操作"></a>GitHub命令操作</h1><h2 id="1-Git-常用词含义"><a href="#1-Git-常用词含义" class="headerlink" title="1. Git 常用词含义"></a>1. Git 常用词含义</h2><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570890261588.png" alt="1570890261588"></p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570931881653.png" alt="1570931881653"></p><h2 id="2-in-关键词限制搜索范围"><a href="#2-in-关键词限制搜索范围" class="headerlink" title="2. in 关键词限制搜索范围"></a>2. in 关键词限制搜索范围</h2><pre><code>公式   xx 关键词   in:name 或description或readme   xx in:name  项目名称包含XX的   xx in:description  项目描述中包含xx的   xx  in:readme  项目readme文件中包含xx的   组合使用    项目名称或者description中包含name或readme,以“,”作为分割。</code></pre><p> 如：hadoop in:name,discription,readme</p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570891064698.png" alt="1570891064698"></p><h2 id="3-stars-或fork-数量关键词去查找"><a href="#3-stars-或fork-数量关键词去查找" class="headerlink" title="3. stars 或fork 数量关键词去查找"></a>3. stars 或fork 数量关键词去查找</h2><p>公式   xx 关键词 stars 通配符   :&gt; 或者 :&lt;= </p><pre><code>区间范围数字  数字1..数字2</code></pre><p>(1) 查找stars数大于等于5000的springcloud</p><p> springcloud stars:&gt;=5000<br><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570891275376.png" alt="1570891275376"></p><p>(2) 查找fork数大于5000的springboot 项目</p><p>springboot fork:&gt;=5000</p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570891420336.png" alt="1570891420336"></p><p>(3) 组合使用    查找fork在100到200并且stars 数在 80 到100 之间的springcloud项目</p><p>springcloud fork:100..200 stars:80..100</p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570891595164.png" alt="1570891595164"></p><h2 id="4-awesome加强搜索"><a href="#4-awesome加强搜索" class="headerlink" title="4. awesome加强搜索"></a>4. awesome加强搜索</h2><p>​        awesome  释义为极好的，了不起的    此关键字一般用来搜索优秀的框架</p><p>   例如：搜索 kafka相关的优秀项目</p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570891692427.png" alt="1570891692427"></p><h2 id="5-高亮显示某一行代码"><a href="#5-高亮显示某一行代码" class="headerlink" title="5. 高亮显示某一行代码"></a>5. 高亮显示某一行代码</h2><p>高亮显示某一行代码，地址后面加上“#LLineNumber ” </p><p>如：高亮显示第20行</p><p><a href="https://github.com/apache/hadoop/blob/trunk/hadoop-hdds/client/src/main/java/org/apache/hadoop/hdds/scm/ClientCredentialInterceptor.java#L35">https://github.com/apache/hadoop/blob/trunk/hadoop-hdds/client/src/main/java/org/apache/hadoop/hdds/scm/ClientCredentialInterceptor.java#L35</a></p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570892174041.png" alt="1570892174041"></p><p>如果想要高亮显示某个区域内的代码，可以通过“#L数字1-L数字2”的方式，</p><p>如：想要高亮显示35行到40行内的代码</p><p><a href="https://github.com/apache/hadoop/blob/trunk/hadoop-hdds/client/src/main/java/org/apache/hadoop/hdds/scm/ClientCredentialInterceptor.java#L35-L43">https://github.com/apache/hadoop/blob/trunk/hadoop-hdds/client/src/main/java/org/apache/hadoop/hdds/scm/ClientCredentialInterceptor.java#L35-L43</a></p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570892278839.png" alt="1570892278839"></p><h2 id="6-项目内搜索"><a href="#6-项目内搜索" class="headerlink" title="6. 项目内搜索"></a>6. 项目内搜索</h2><p>使用快捷键t ，可以以列表的形式显示项目内的所有文件，方便检索，并且还贴心的给出了小提示信息</p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570892530705.png" alt="1570892530705"></p><p>更多操作，可以在：<a href="https://help.github.com/en/articles/keyboard-shortcuts" target="_blank" rel="noopener">https://help.github.com/en/articles/keyboard-shortcuts</a>中查看</p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570892961400.png" alt="1570892961400"></p><h2 id="7-搜索某个区域内的大牛"><a href="#7-搜索某个区域内的大牛" class="headerlink" title="7. 搜索某个区域内的大牛"></a>7. 搜索某个区域内的大牛</h2><p>如查找在上海活跃度比较高的大牛</p><p>location:shanghai language:flume</p><p><img src="/cosmoswong/cosmoswong.github.io.git/2019/10/12/GitHub命令操作/1570892728050.png" alt="1570892728050"></p><p>title: GitHub命令操作<br>date: 2019-10-12 22:06:52</p><p>tags:GitHub</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;GitHub命令操作&quot;&gt;&lt;a href=&quot;#GitHub命令操作&quot; class=&quot;headerlink&quot; title=&quot;GitHub命令操作&quot;&gt;&lt;/a&gt;GitHub命令操作&lt;/h1&gt;&lt;h2 id=&quot;1-Git-常用词含义&quot;&gt;&lt;a href=&quot;#1-Git-常用词含
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/%E7%AE%80%E8%A6%81%E4%BF%A1%E6%81%AF/"/>
+    <id>https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/简要信息/</id>
+    <published>2019-10-12T11:23:31.794Z</published>
+    <updated>2019-10-12T15:17:36.472Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="存放一些测试性数据"><a href="#存放一些测试性数据" class="headerlink" title="存放一些测试性数据"></a>存放一些测试性数据</h1><p>   使用腾讯云做为图床：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   本地编写的时候，直接使用D:\MarkdownNotes\assets\images作为图片的保存路径，上传到GitHub上时，替换路路径为：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/</a></p><p><a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   技巧：替换方法，“ctrl+/”，进入到源码模式，然后全局替换即可。</p><p>title: mydemo<br>date: 2019-10-12 19:23:31<br>tags:</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;存放一些测试性数据&quot;&gt;&lt;a href=&quot;#存放一些测试性数据&quot; class=&quot;headerlink&quot; title=&quot;存放一些测试性数据&quot;&gt;&lt;/a&gt;存放一些测试性数据&lt;/h1&gt;&lt;p&gt;   使用腾讯云做为图床：&lt;a href=&quot;https://cosmoswong-i
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JVM/"/>
+    <id>https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/深入理解JVM/</id>
+    <published>2019-10-12T10:54:03.555Z</published>
+    <updated>2019-10-13T01:14:33.827Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570890261588.png" alt><br>i am a student</p><p>​    最近系统性的学习了一下JVM相关知识，包括JVM内存模型/JVM调优/生产实战相关，只为了能够更好的巩固和备忘。</p><h2 id="JVM内存模型"><a href="#JVM内存模型" class="headerlink" title="JVM内存模型"></a>JVM内存模型</h2><h2 id="JVM-调优参数"><a href="#JVM-调优参数" class="headerlink" title="JVM 调优参数"></a>JVM 调优参数</h2><p>title: 深入理解JVM<br>date: 2019-10-12 18:54:03</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570890261588.png&quot; alt&gt;&lt;br&gt;i am a student&lt;/p&gt;
+&lt;p&gt;​    最近系
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git常用操作</title>
+    <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/"/>
+    <id>https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/12/git常用操作/</id>
+    <published>2019-10-12T10:01:41.000Z</published>
+    <updated>2019-10-13T01:17:39.952Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/11/hello-world/"/>
+    <id>https://github.com/cosmoswong/cosmoswong.github.io.git/2019/10/11/hello-world/</id>
+    <published>2019-10-10T23:09:01.142Z</published>
+    <updated>2019-10-10T23:09:01.142Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
