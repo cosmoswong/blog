@@ -41,44 +41,44 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://cosmoswong.github.io/2019/10/12/%E7%AE%80%E8%A6%81%E4%BF%A1%E6%81%AF/"/>
-    <id>https://cosmoswong.github.io/2019/10/12/简要信息/</id>
-    <published>2019-10-12T11:23:31.794Z</published>
-    <updated>2019-10-13T04:27:48.409Z</updated>
+    <title>深入理解JVM读书笔记</title>
+    <link href="https://cosmoswong.github.io/2019/10/12/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JVM/"/>
+    <id>https://cosmoswong.github.io/2019/10/12/深入理解JVM/</id>
+    <published>2019-10-12T14:06:52.000Z</published>
+    <updated>2019-10-13T04:30:43.094Z</updated>
     
-    <content type="html"><![CDATA[<p>title: 简要信息<br>date: 2019-10-12 22:06:52<br>tags: </p><h1 id="存放一些测试性数据"><a href="#存放一些测试性数据" class="headerlink" title="存放一些测试性数据"></a>存放一些测试性数据</h1><p>   使用腾讯云做为图床：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   本地编写的时候，直接使用D:\MarkdownNotes\assets\images作为图片的保存路径，上传到GitHub上时，替换路路径为：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/</a></p><p><a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   技巧：替换方法，“ctrl+/”，进入到源码模式，然后全局替换即可。</p><p>title: mydemo<br>date: 2019-10-12 19:23:31<br>tags:</p>]]></content>
+    <content type="html"><![CDATA[<p>​    最近系统性的学习了一下JVM相关知识，包括JVM内存模型/JVM调优/生产实战相关，只为了能够更好的巩固和备忘。</p><h2 id="JVM内存模型"><a href="#JVM内存模型" class="headerlink" title="JVM内存模型"></a>JVM内存模型</h2><h2 id="JVM-调优参数"><a href="#JVM-调优参数" class="headerlink" title="JVM 调优参数"></a>JVM 调优参数</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;title: 简要信息&lt;br&gt;date: 2019-10-12 22:06:52&lt;br&gt;tags: &lt;/p&gt;
-&lt;h1 id=&quot;存放一些测试性数据&quot;&gt;&lt;a href=&quot;#存放一些测试性数据&quot; class=&quot;headerlink&quot; title=&quot;存放一些测试性数据&quot;&gt;&lt;/a&gt;存
+        &lt;p&gt;​    最近系统性的学习了一下JVM相关知识，包括JVM内存模型/JVM调优/生产实战相关，只为了能够更好的巩固和备忘。&lt;/p&gt;
+&lt;h2 id=&quot;JVM内存模型&quot;&gt;&lt;a href=&quot;#JVM内存模型&quot; class=&quot;headerlink&quot; title=&quot;JVM内存模型&quot;&gt;
       
     
     </summary>
     
     
     
+      <category term="Java" scheme="https://cosmoswong.github.io/tags/Java/"/>
+    
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://cosmoswong.github.io/2019/10/12/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JVM/"/>
-    <id>https://cosmoswong.github.io/2019/10/12/深入理解JVM/</id>
-    <published>2019-10-12T10:54:03.555Z</published>
-    <updated>2019-10-13T04:27:01.645Z</updated>
+    <title>简要信息</title>
+    <link href="https://cosmoswong.github.io/2019/10/12/%E7%AE%80%E8%A6%81%E4%BF%A1%E6%81%AF/"/>
+    <id>https://cosmoswong.github.io/2019/10/12/简要信息/</id>
+    <published>2019-10-12T14:06:52.000Z</published>
+    <updated>2019-10-13T04:30:30.640Z</updated>
     
-    <content type="html"><![CDATA[<p>title: 深入理解JVM读书笔记<br>date: 2019-10-12 22:06:52<br>tags: Java</p><p>​    最近系统性的学习了一下JVM相关知识，包括JVM内存模型/JVM调优/生产实战相关，只为了能够更好的巩固和备忘。</p><h2 id="JVM内存模型"><a href="#JVM内存模型" class="headerlink" title="JVM内存模型"></a>JVM内存模型</h2><h2 id="JVM-调优参数"><a href="#JVM-调优参数" class="headerlink" title="JVM 调优参数"></a>JVM 调优参数</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="存放一些测试性数据"><a href="#存放一些测试性数据" class="headerlink" title="存放一些测试性数据"></a>存放一些测试性数据</h1><p>   使用腾讯云做为图床：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   本地编写的时候，直接使用D:\MarkdownNotes\assets\images作为图片的保存路径，上传到GitHub上时，替换路路径为：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/</a></p><p><a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   技巧：替换方法，“ctrl+/”，进入到源码模式，然后全局替换即可。</p><p>title: mydemo<br>date: 2019-10-12 19:23:31<br>tags:</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;title: 深入理解JVM读书笔记&lt;br&gt;date: 2019-10-12 22:06:52&lt;br&gt;tags: Java&lt;/p&gt;
-&lt;p&gt;​    最近系统性的学习了一下JVM相关知识，包括JVM内存模型/JVM调优/生产实战相关，只为了能够更好的巩固和备忘。&lt;/p&gt;
-&lt;h
+        &lt;h1 id=&quot;存放一些测试性数据&quot;&gt;&lt;a href=&quot;#存放一些测试性数据&quot; class=&quot;headerlink&quot; title=&quot;存放一些测试性数据&quot;&gt;&lt;/a&gt;存放一些测试性数据&lt;/h1&gt;&lt;p&gt;   使用腾讯云做为图床：&lt;a href=&quot;https://cosmoswong-i
       
     
     </summary>
