@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cosmoswong.github.io/"/>
-  <updated>2019-10-13T09:36:16.949Z</updated>
+  <updated>2019-10-16T06:43:55.741Z</updated>
   <id>https://cosmoswong.github.io/</id>
   
   <author>
@@ -17,13 +17,77 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>提高工作效率的桌面工具推荐</title>
+    <link href="https://cosmoswong.github.io/2019/10/16/%E6%8F%90%E9%AB%98%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87%E7%9A%84%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/"/>
+    <id>https://cosmoswong.github.io/2019/10/16/提高工作效率的桌面工具推荐/</id>
+    <published>2019-10-16T06:20:57.000Z</published>
+    <updated>2019-10-16T06:43:55.741Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中"><a href="#1-clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中" class="headerlink" title="1.clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中"></a>1.clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中</h1><p>   不过美中不足的是clover的广告实在是太多了，忍受不了的话，可以使用Q-Dir来替代。</p><p><img src="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1571207314818.png" alt="1571207314818"></p><h1 id="2-Everything-搜索利器"><a href="#2-Everything-搜索利器" class="headerlink" title="2. Everything-搜索利器"></a>2. Everything-搜索利器</h1><p>通过这款工具，妈妈再也不用担心我找不到自己的文件了。</p><p><img src="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1571207403705.png" alt="1571207403705"></p><p>支持多种搜索方式，后缀名、前缀名、图片、视频等。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;1-clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中&quot;&gt;&lt;a href=&quot;#1-clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中&quot; class=&quot;headerlink&quot; title=&quot;1.clover工具，能够管理多个窗口，使得它们
+      
+    
+    </summary>
+    
+    
+    
+      <category term="桌面管理" scheme="https://cosmoswong.github.io/tags/%E6%A1%8C%E9%9D%A2%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于docker的hadoop集群搭建</title>
+    <link href="https://cosmoswong.github.io/2019/10/16/%E5%9F%BA%E4%BA%8Edocker%E7%9A%84hadoop%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA/"/>
+    <id>https://cosmoswong.github.io/2019/10/16/基于docker的hadoop集群搭建/</id>
+    <published>2019-10-16T06:20:10.000Z</published>
+    <updated>2019-10-16T06:20:10.435Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hadoop学习简记</title>
+    <link href="https://cosmoswong.github.io/2019/10/14/hadoop%E5%AD%A6%E4%B9%A0%E7%AE%80%E8%AE%B0/"/>
+    <id>https://cosmoswong.github.io/2019/10/14/hadoop学习简记/</id>
+    <published>2019-10-13T16:26:19.000Z</published>
+    <updated>2019-10-13T16:41:12.339Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="hadoop构成"><a href="#hadoop构成" class="headerlink" title="hadoop构成"></a>hadoop构成</h2><p>Haoop是由HDFS，Yarn和MapReduce所构成的。</p><h3 id="HDFS"><a href="#HDFS" class="headerlink" title="HDFS"></a>HDFS</h3><p>hdfs负责存储。</p><h3 id="Yarn"><a href="#Yarn" class="headerlink" title="Yarn"></a>Yarn</h3><p>yarn复制资源调度和管理</p><h3 id="MapReduce"><a href="#MapReduce" class="headerlink" title="MapReduce"></a>MapReduce</h3><p>MapReduce负责离线计算。</p><h1 id="1-Hadoop-任务提交流程"><a href="#1-Hadoop-任务提交流程" class="headerlink" title="1. Hadoop 任务提交流程"></a>1. Hadoop 任务提交流程</h1><p><img src="/2019/10/14/hadoop学习简记/1570984094833.png" alt="1570984094833"></p><p>客户端提交任务，先将任务提交到AM上，MR AppMster是由AM来进行管理的，当请求交给AM后，它会转到对应的NodeManager上启动MR App Mstr，启动后，回向Resource Scheduler申请资源（Container），申请完成之后，ResouceManager会将申请到的资源反馈给MR App Mstr，然后MR App Mstr会和NodeManager通信，要求它们启动MapTask和ReduceTask。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;hadoop构成&quot;&gt;&lt;a href=&quot;#hadoop构成&quot; class=&quot;headerlink&quot; title=&quot;hadoop构成&quot;&gt;&lt;/a&gt;hadoop构成&lt;/h2&gt;&lt;p&gt;Haoop是由HDFS，Yarn和MapReduce所构成的。&lt;/p&gt;
+&lt;h3 id=&quot;HD
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Hadoop" scheme="https://cosmoswong.github.io/tags/Hadoop/"/>
+    
+  </entry>
+  
+  <entry>
     <title>个人博客的搭建方法</title>
     <link href="https://cosmoswong.github.io/2019/10/13/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E6%96%B9%E6%B3%95/"/>
     <id>https://cosmoswong.github.io/2019/10/13/个人博客的搭建方法/</id>
     <published>2019-10-13T04:34:31.000Z</published>
-    <updated>2019-10-13T09:36:16.949Z</updated>
+    <updated>2019-10-16T06:47:16.516Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Hexo-Github-Typroa-个人博客的搭建"><a href="#Hexo-Github-Typroa-个人博客的搭建" class="headerlink" title="Hexo+Github+Typroa 个人博客的搭建"></a>Hexo+Github+Typroa 个人博客的搭建</h1><h2 id="搭建方法"><a href="#搭建方法" class="headerlink" title="搭建方法"></a>搭建方法</h2><p>​      最近看了很多个人博客，感觉写的很好，临渊羡鱼不如退而结网，就自己整一个呗，说干就干。</p><p>经过了一天的折腾，总算搭建好了，也没想想的那么复杂。总结一下就是使用hexo+github就行了。</p><p>搭建过程参考了这位网友的：<a href="https://www.cnblogs.com/trista222/p/8017300.html" target="_blank" rel="noopener">https://www.cnblogs.com/trista222/p/8017300.html</a></p><h2 id="选择图床"><a href="#选择图床" class="headerlink" title="选择图床"></a>选择图床</h2><p>​       在图床选型上使用腾讯云或本地图片的方式。比较大图片上传到腾讯云上，然后在博客上引用。小图片直接附带博客一并存放到GitHub上。</p><p>​       使用腾讯云作为图床的配置方法：<a href="https://blog.csdn.net/a201577f0546/article/details/80146350" target="_blank" rel="noopener">https://blog.csdn.net/a201577f0546/article/details/80146350</a>，个人尝试了下，感觉还不错挺快的。只是收费，不过费用不高。目前活动期间，博主目前领到了一元6个月的存储空间，非常实惠。</p><p>​       下面着重介绍的是使用本地图片的方式，这种方式适用于图片比较小的情形，如果图片比较大，还是使用图床吧！否则加载起来巨慢。这种方式实际上就是将保存到GitHub上。具体的操作方法，使用hexo-asset-image，关于它的安装和配置方法，见博客：<a href="https://www.jianshu.com/p/950f8f13a36c" target="_blank" rel="noopener">https://www.jianshu.com/p/950f8f13a36c</a></p><p>​        安装了hexo-asset-image，在创建blog的时候，会同步创建一个文件夹</p><p>如下：</p><p><img src="/2019/10/13/个人博客的搭建方法/1570941808160.png" alt="1570941808160"></p><p>可以看到在source目录下自动创建了一个同名的文件夹，这个文件夹就是将要存放博客图片的地方</p><p><img src="/2019/10/13/个人博客的搭建方法/1570941935114.png" alt="1570941935114"></p><p>​      接下来，需要做一些小的设置，博主使用是typroa作为博客的编辑器，感觉这个编辑器还是挺好用的，非常适合markdown编辑操作。设置一下typroa，使得每次插入的图片都会放到所编辑文件，同名的文件夹下：</p><p><img src="/2019/10/13/个人博客的搭建方法/1570942178089.png" alt="1570942178089"></p><p>​      键入“./${filename}”表示将图片存放到，和所编辑文件同名的目录中。也就是实例中的“个人博客搭建方法”中，现在我们打开这个目录，可以看到我在typroa中所引用的图片存放到了这个地方了</p><p><img src="/2019/10/13/个人博客的搭建方法/1570942342127.png" alt="1570942342127"></p><p>​       如果存在什么问题，请参考这个博客：<a href="https://blog.51cto.com/nxlhero/2441582?source=dra" target="_blank" rel="noopener">https://blog.51cto.com/nxlhero/2441582?source=dra</a></p><p>好了，这就OK。</p><p>可以放心的编写博客了，编写完毕后，</p><p>在hexo中生成静态页面：hexo g</p><p>然后查看一下效果：hexo s</p><p>最后发布到Github上：hexo d</p><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>在hexo所生成的这些markdown中，key和value之间，一定要有空格，否则生成静态页面期间，会出现各种意想不到的问题。</p><p><img src="/2019/10/13/个人博客的搭建方法/1570942629142.png" alt="1570942629142"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hexo-Github-Typroa-个人博客的搭建"><a href="#Hexo-Github-Typroa-个人博客的搭建" class="headerlink" title="Hexo+Github+Typroa 个人博客的搭建"></a>Hexo+Github+Typroa 个人博客的搭建</h1><h2 id="搭建方法"><a href="#搭建方法" class="headerlink" title="搭建方法"></a>搭建方法</h2><p>​      最近看了很多个人博客，感觉写的很好，临渊羡鱼不如退而结网，就自己整一个呗，说干就干。</p><p>经过了一天的折腾，总算搭建好了，也没想想的那么复杂。总结一下就是使用hexo+github就行了。</p><p>搭建过程参考了这位网友的：<a href="https://www.cnblogs.com/trista222/p/8017300.html" target="_blank" rel="noopener">https://www.cnblogs.com/trista222/p/8017300.html</a></p><h2 id="选择图床"><a href="#选择图床" class="headerlink" title="选择图床"></a>选择图床</h2><p>​       在图床选型上使用腾讯云或本地图片的方式。比较大图片上传到腾讯云上，然后在博客上引用。小图片直接附带博客一并存放到GitHub上。</p><p>​       使用腾讯云作为图床的配置方法：<a href="https://blog.csdn.net/a201577f0546/article/details/80146350" target="_blank" rel="noopener">https://blog.csdn.net/a201577f0546/article/details/80146350</a>，个人尝试了下，感觉还不错挺快的。只是收费，不过费用不高。目前活动期间，博主目前领到了一元6个月的存储空间，非常实惠。</p><p><img src="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1571207923637.png" alt="1571207923637"></p><p>​       下面着重介绍的是使用本地图片的方式，这种方式适用于图片比较小的情形，如果图片比较大，还是使用图床吧！否则加载起来巨慢。这种方式实际上就是将保存到GitHub上。具体的操作方法，使用hexo-asset-image，关于它的安装和配置方法，见博客：<a href="https://www.jianshu.com/p/950f8f13a36c" target="_blank" rel="noopener">https://www.jianshu.com/p/950f8f13a36c</a></p><p>​        安装了hexo-asset-image，在创建blog的时候，会同步创建一个文件夹</p><p>如下：</p><p><img src="/2019/10/13/个人博客的搭建方法/1570941808160.png" alt="1570941808160"></p><p>可以看到在source目录下自动创建了一个同名的文件夹，这个文件夹就是将要存放博客图片的地方</p><p><img src="/2019/10/13/个人博客的搭建方法/1570941935114.png" alt="1570941935114"></p><p>​      接下来，需要做一些小的设置，博主使用是typroa作为博客的编辑器，感觉这个编辑器还是挺好用的，非常适合markdown编辑操作。设置一下typroa，使得每次插入的图片都会放到所编辑文件，同名的文件夹下：</p><p><img src="/2019/10/13/个人博客的搭建方法/1570942178089.png" alt="1570942178089"></p><p>​      键入“./${filename}”表示将图片存放到，和所编辑文件同名的目录中。也就是实例中的“个人博客搭建方法”中，现在我们打开这个目录，可以看到我在typroa中所引用的图片存放到了这个地方了</p><p><img src="/2019/10/13/个人博客的搭建方法/1570942342127.png" alt="1570942342127"></p><p>​       如果存在什么问题，请参考这个博客：<a href="https://blog.51cto.com/nxlhero/2441582?source=dra" target="_blank" rel="noopener">https://blog.51cto.com/nxlhero/2441582?source=dra</a></p><p>好了，这就OK。</p><p>可以放心的编写博客了，编写完毕后，</p><p>在hexo中生成静态页面：hexo g</p><p>然后查看一下效果：hexo s</p><p>最后发布到Github上：hexo d</p><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>在hexo所生成的这些markdown中，key和value之间，一定要有空格，否则生成静态页面期间，会出现各种意想不到的问题。</p><p><img src="/2019/10/13/个人博客的搭建方法/1570942629142.png" alt="1570942629142"></p>]]></content>
     
     <summary type="html">
     
@@ -63,6 +127,28 @@
   </entry>
   
   <entry>
+    <title>简要信息</title>
+    <link href="https://cosmoswong.github.io/2019/10/12/%E7%AE%80%E8%A6%81%E4%BF%A1%E6%81%AF/"/>
+    <id>https://cosmoswong.github.io/2019/10/12/简要信息/</id>
+    <published>2019-10-12T14:06:52.000Z</published>
+    <updated>2019-10-13T04:30:30.640Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="存放一些测试性数据"><a href="#存放一些测试性数据" class="headerlink" title="存放一些测试性数据"></a>存放一些测试性数据</h1><p>   使用腾讯云做为图床：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   本地编写的时候，直接使用D:\MarkdownNotes\assets\images作为图片的保存路径，上传到GitHub上时，替换路路径为：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/</a></p><p><a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   技巧：替换方法，“ctrl+/”，进入到源码模式，然后全局替换即可。</p><p>title: mydemo<br>date: 2019-10-12 19:23:31<br>tags:</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;存放一些测试性数据&quot;&gt;&lt;a href=&quot;#存放一些测试性数据&quot; class=&quot;headerlink&quot; title=&quot;存放一些测试性数据&quot;&gt;&lt;/a&gt;存放一些测试性数据&lt;/h1&gt;&lt;p&gt;   使用腾讯云做为图床：&lt;a href=&quot;https://cosmoswong-i
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>深入理解JVM读书笔记</title>
     <link href="https://cosmoswong.github.io/2019/10/12/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JVM/"/>
     <id>https://cosmoswong.github.io/2019/10/12/深入理解JVM/</id>
@@ -84,28 +170,6 @@
     
     
       <category term="Java" scheme="https://cosmoswong.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>简要信息</title>
-    <link href="https://cosmoswong.github.io/2019/10/12/%E7%AE%80%E8%A6%81%E4%BF%A1%E6%81%AF/"/>
-    <id>https://cosmoswong.github.io/2019/10/12/简要信息/</id>
-    <published>2019-10-12T14:06:52.000Z</published>
-    <updated>2019-10-13T04:30:30.640Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="存放一些测试性数据"><a href="#存放一些测试性数据" class="headerlink" title="存放一些测试性数据"></a>存放一些测试性数据</h1><p>   使用腾讯云做为图床：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   本地编写的时候，直接使用D:\MarkdownNotes\assets\images作为图片的保存路径，上传到GitHub上时，替换路路径为：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/</a></p><p><a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   技巧：替换方法，“ctrl+/”，进入到源码模式，然后全局替换即可。</p><p>title: mydemo<br>date: 2019-10-12 19:23:31<br>tags:</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;存放一些测试性数据&quot;&gt;&lt;a href=&quot;#存放一些测试性数据&quot; class=&quot;headerlink&quot; title=&quot;存放一些测试性数据&quot;&gt;&lt;/a&gt;存放一些测试性数据&lt;/h1&gt;&lt;p&gt;   使用腾讯云做为图床：&lt;a href=&quot;https://cosmoswong-i
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
