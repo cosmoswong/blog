@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cosmoswong.github.io/"/>
-  <updated>2019-10-16T06:43:55.741Z</updated>
+  <updated>2019-10-16T06:50:18.668Z</updated>
   <id>https://cosmoswong.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://cosmoswong.github.io/2019/10/16/%E6%8F%90%E9%AB%98%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87%E7%9A%84%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/"/>
     <id>https://cosmoswong.github.io/2019/10/16/提高工作效率的桌面工具推荐/</id>
     <published>2019-10-16T06:20:57.000Z</published>
-    <updated>2019-10-16T06:43:55.741Z</updated>
+    <updated>2019-10-16T06:50:18.668Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="1-clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中"><a href="#1-clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中" class="headerlink" title="1.clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中"></a>1.clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中</h1><p>   不过美中不足的是clover的广告实在是太多了，忍受不了的话，可以使用Q-Dir来替代。</p><p><img src="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1571207314818.png" alt="1571207314818"></p><h1 id="2-Everything-搜索利器"><a href="#2-Everything-搜索利器" class="headerlink" title="2. Everything-搜索利器"></a>2. Everything-搜索利器</h1><p>通过这款工具，妈妈再也不用担心我找不到自己的文件了。</p><p><img src="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1571207403705.png" alt="1571207403705"></p><p>支持多种搜索方式，后缀名、前缀名、图片、视频等。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="1-clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中"><a href="#1-clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中" class="headerlink" title="1.clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中"></a>1.clover工具，能够管理多个窗口，使得它们都显示在同一个窗口中</h1><p>   不过美中不足的是clover的广告实在是太多了，忍受不了的话，可以使用Q-Dir来替代。</p><p><img src="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1571207314818.png" alt="1571207314818"></p><h1 id="2-Everything-搜索利器"><a href="#2-Everything-搜索利器" class="headerlink" title="2. Everything-搜索利器"></a>2. Everything-搜索利器</h1><p>通过这款工具，妈妈再也不用担心我找不到自己的文件了。</p><p><img src="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1571207403705.png" alt="1571207403705"></p><p>支持多种搜索方式，后缀名、前缀名、图片、视频等。</p><p>未完待续……</p>]]></content>
     
     <summary type="html">
     
@@ -127,28 +127,6 @@
   </entry>
   
   <entry>
-    <title>简要信息</title>
-    <link href="https://cosmoswong.github.io/2019/10/12/%E7%AE%80%E8%A6%81%E4%BF%A1%E6%81%AF/"/>
-    <id>https://cosmoswong.github.io/2019/10/12/简要信息/</id>
-    <published>2019-10-12T14:06:52.000Z</published>
-    <updated>2019-10-13T04:30:30.640Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="存放一些测试性数据"><a href="#存放一些测试性数据" class="headerlink" title="存放一些测试性数据"></a>存放一些测试性数据</h1><p>   使用腾讯云做为图床：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   本地编写的时候，直接使用D:\MarkdownNotes\assets\images作为图片的保存路径，上传到GitHub上时，替换路路径为：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/</a></p><p><a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   技巧：替换方法，“ctrl+/”，进入到源码模式，然后全局替换即可。</p><p>title: mydemo<br>date: 2019-10-12 19:23:31<br>tags:</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;存放一些测试性数据&quot;&gt;&lt;a href=&quot;#存放一些测试性数据&quot; class=&quot;headerlink&quot; title=&quot;存放一些测试性数据&quot;&gt;&lt;/a&gt;存放一些测试性数据&lt;/h1&gt;&lt;p&gt;   使用腾讯云做为图床：&lt;a href=&quot;https://cosmoswong-i
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>深入理解JVM读书笔记</title>
     <link href="https://cosmoswong.github.io/2019/10/12/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JVM/"/>
     <id>https://cosmoswong.github.io/2019/10/12/深入理解JVM/</id>
@@ -170,6 +148,28 @@
     
     
       <category term="Java" scheme="https://cosmoswong.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简要信息</title>
+    <link href="https://cosmoswong.github.io/2019/10/12/%E7%AE%80%E8%A6%81%E4%BF%A1%E6%81%AF/"/>
+    <id>https://cosmoswong.github.io/2019/10/12/简要信息/</id>
+    <published>2019-10-12T14:06:52.000Z</published>
+    <updated>2019-10-13T04:30:30.640Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="存放一些测试性数据"><a href="#存放一些测试性数据" class="headerlink" title="存放一些测试性数据"></a>存放一些测试性数据</h1><p>   使用腾讯云做为图床：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   本地编写的时候，直接使用D:\MarkdownNotes\assets\images作为图片的保存路径，上传到GitHub上时，替换路路径为：<a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/</a></p><p><a href="https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png" target="_blank" rel="noopener">https://cosmoswong-img-1258890093.cos.ap-shanghai.myqcloud.com/images/1570812319510.png</a></p><p>   技巧：替换方法，“ctrl+/”，进入到源码模式，然后全局替换即可。</p><p>title: mydemo<br>date: 2019-10-12 19:23:31<br>tags:</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;存放一些测试性数据&quot;&gt;&lt;a href=&quot;#存放一些测试性数据&quot; class=&quot;headerlink&quot; title=&quot;存放一些测试性数据&quot;&gt;&lt;/a&gt;存放一些测试性数据&lt;/h1&gt;&lt;p&gt;   使用腾讯云做为图床：&lt;a href=&quot;https://cosmoswong-i
+      
+    
+    </summary>
+    
+    
     
   </entry>
   
