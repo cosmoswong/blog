@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cosmoswong.github.io/2019/10/16/docker%E5%AD%A6%E4%B9%A0%E7%AE%80%E8%AE%B0/</loc>
+    
+    <lastmod>2019-10-19T14:34:01.074Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cosmoswong.github.io/2019/10/19/idea%E5%AD%A6%E4%B9%A0%E7%AE%80%E8%AE%B0/</loc>
     
-    <lastmod>2019-10-19T14:05:39.486Z</lastmod>
+    <lastmod>2019-10-19T14:21:43.780Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>https://cosmoswong.github.io/2019/10/14/hadoop%E5%AD%A6%E4%B9%A0%E7%AE%80%E8%AE%B0/</loc>
     
     <lastmod>2019-10-19T10:11:51.833Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cosmoswong.github.io/2019/10/16/docker%E5%AD%A6%E4%B9%A0%E7%AE%80%E8%AE%B0/</loc>
-    
-    <lastmod>2019-10-18T14:18:29.053Z</lastmod>
     
   </url>
   
@@ -68,13 +68,6 @@
     <loc>https://cosmoswong.github.io/2019/10/12/%E7%AE%80%E8%A6%81%E4%BF%A1%E6%81%AF/</loc>
     
     <lastmod>2019-10-13T04:30:30.640Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cosmoswong.github.io/2019/10/12/git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</loc>
-    
-    <lastmod>2019-10-13T04:28:17.879Z</lastmod>
     
   </url>
   
